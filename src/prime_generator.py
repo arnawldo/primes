@@ -3,8 +3,9 @@ def prime_numbers(n):
     """
     Given integer, generates prime numbers from 0 to stopping number
     :param n: stopping number
-    :rtype n: int
+    :type n: int
     :return: list of prime numbers up to n
+    :rtype: list
     """
     # return if input is negative
     if n < 0:
@@ -29,3 +30,14 @@ def prime_numbers(n):
             primes.append(i)
 
     return primes
+
+def prime_seive(n):
+    """
+    Generate prime numbers from 0 to given number using the Seive of Eratosthenes algorithm
+    :param n: stopping number
+    :type n: int
+    :return: list of prime numbers up to n
+    :rtype: list
+    """
+
+    pass
