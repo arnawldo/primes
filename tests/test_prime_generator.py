@@ -26,3 +26,7 @@ def test__prime_numbers_returns_n_inclusive_if_prime__succeeds():
 def test__prime_numbers_str_input__raises():
     with pytest.raises(TypeError):
         primes = prime_numbers("7")
+
+def test__prime_numbers_float_input__raises():
+    with pytest.raises(TypeError):
+        primes = prime_numbers(7.4)
