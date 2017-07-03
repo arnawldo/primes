@@ -1,3 +1,5 @@
 def prime_numbers(n):
 
-    pass
+    if n < 0:
+        return None
+
