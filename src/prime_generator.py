@@ -31,9 +31,9 @@ def prime_numbers(n):
 
     return primes
 
-def prime_seive(n):
+def prime_sieve(n):
     """
-    Generate prime numbers from 0 to given number using the Seive of Eratosthenes algorithm
+    Generate prime numbers from 0 to given number using the Sieve of Eratosthenes algorithm
     :param n: stopping number
     :type n: int
     :return: list of prime numbers up to n
