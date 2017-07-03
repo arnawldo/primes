@@ -5,7 +5,7 @@ def prime_numbers(n):
 
     primes = []
 
-    for i in range(2, n):
+    for i in range(2, n + 1):
 
         # assume number to be prime
         isPrime = True
