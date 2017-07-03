@@ -40,4 +40,18 @@ def prime_seive(n):
     :rtype: list
     """
 
-    pass
+    # return if input is negative
+    if n < 0:
+        return None
+
+    not_prime = []
+    primes = []
+
+    for i in range(2, n + 1):
+        if i not in not_prime:
+            primes.append(i)
+            for j in range(i * i, n + 1, i):
+                not_prime.append(j)
+
+    return primes
+
