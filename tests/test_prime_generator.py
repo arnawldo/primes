@@ -8,7 +8,7 @@ def test__prime_numbers_returns_none_for_negative_input__succeeds():
     assert primes is None
 
 
-def test__prime_numbers_returns_empty_list_for_0_input():
+def test__prime_numbers_returns_empty_list_for_0_input__succeeds():
     primes = prime_numbers(0)
     assert primes == []
 
