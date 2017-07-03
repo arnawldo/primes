@@ -1,4 +1,5 @@
 # Prime number generator
+Generates prime numbers from 0 to given integer
 
 Running time of algorithm is O(n^2)
 
